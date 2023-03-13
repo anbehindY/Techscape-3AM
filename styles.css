@@ -7,8 +7,8 @@
 header {
     display: flex;
     flex-direction: column;
-    padding: 15px 25px;
     gap: 50px;
+    height: 0;
 }
 
 .header.active {
@@ -32,6 +32,7 @@ div.menuButton {
     cursor: pointer;
     z-index: 99;
     transition: all 0.4s ease-in;
+    margin: 15px 25px;
 }
 
 div.menuButton::before,
@@ -88,3 +89,25 @@ button#ccCampaign {
     transform: scale(0);
 }
 
+#banner {
+    background-color: whitesmoke;
+    height: 55vh;
+    padding: 80px 10px 0 10px;
+}
+
+#banner > h1 {
+    padding: 0 10px;
+    line-height: 28px;
+}
+
+div.intro {
+    width: 100%;
+    border: 2px solid #fff;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+p.schedule {
+    padding: 0 10px;
+}

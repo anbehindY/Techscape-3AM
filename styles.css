@@ -1,113 +1,170 @@
 * {
-  box-sizing: border-box;  
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
 header {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  height: 0;
 }
 
 .header.active {
-    height: 100vh;
-    background: #d3d3d3;
+  height: 100vh;
+  background: #d3d3d3;
 }
 
 .header.active .menuItems,
 .header.active #ccCampaign {
-    transform: scale(1);
-    transition: all 0.4s ease-out;
+  transform: scale(1);
+  transition: all 0.4s ease-out;
 }
 
 div.miniNav {
-    display: none;
+  display: none;
 }
 
 div.menuButton {
-    width: 26px;
-    display: block;
-    cursor: pointer;
-    z-index: 99;
-    transition: all 0.4s ease-in;
-    margin: 15px 25px;
+  width: 26px;
+  display: block;
+  cursor: pointer;
+  z-index: 99;
+  transition: all 0.4s ease-in;
+  margin: 15px 25px;
 }
 
 div.menuButton::before,
 div.menuBar,
 div.menuButton::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 5px;
-    margin-bottom: 4px;
-    background-color: #272a31;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 5px;
+  margin-bottom: 4px;
+  background-color: #272a31;
 }
 
 div.menuButton.active::before {
-    transform: rotate(45deg) translate(5px,7px);
+  transform: rotate(45deg) translate(5px, 7px);
 }
 
-div.menuButton.active .menuBar{
-    opacity: 0;
+div.menuButton.active .menuBar {
+  opacity: 0;
 }
 
 div.menuButton.active::after {
-    transform: rotate(-45deg) translate(6px,-8px);
+  transform: rotate(-45deg) translate(6px, -8px);
 }
 
 div.logo {
-    display: none;
+  display: none;
 }
 
 nav.menuItems {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    gap: 30px;
-    transform: scale(0);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  gap: 30px;
+  transform: scale(0);
 }
 
 nav.menuItems > a {
-    text-decoration: none;
-    color: #262626;
-    font-family: 'Lato';
+  text-decoration: none;
+  color: #262626;
+  font-family: "Lato", sans-serif;
 }
 
 button#ccCampaign {
-    width: 30%;
-    height: 35px;
-    border: none;
-    background-color: #fff;
-    align-self: center;
-    border: 3px solid #ec5242;
-    color: #ec5242;
-    font-family: 'Lato';
-    transform: scale(0);
+  width: 30%;
+  height: 35px;
+  background-color: #fff;
+  align-self: center;
+  border: 3px solid #ec5242;
+  color: #ec5242;
+  font-family: "Lato", sans-serif;
+  transform: scale(0);
 }
 
 #banner {
-    background-color: whitesmoke;
-    height: 55vh;
-    padding: 80px 10px 0 10px;
+  background: url(images/clouds.jpg);
+  height: 55vh;
+  padding: 80px 10px 0 10px;
 }
 
 #banner > h1 {
-    padding: 0 10px;
-    line-height: 28px;
+  padding: 0 10px;
+  line-height: 28px;
+  color: #ec5242;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
 }
 
 div.intro {
-    width: 100%;
-    border: 2px solid #fff;
-    padding: 10px 15px;
-    margin-bottom: 15px;
-    margin-top: 15px;
+  width: 100%;
+  border: 2px solid #fff;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  background: #efeef2cf;
 }
 
 p.schedule {
-    padding: 0 10px;
+  padding: 0 10px;
+}
+
+main {
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #fff;
+  padding: 30px 15px;
+  align-items: center;
+  height: 80vh;
+}
+
+h1.mainHeader {
+  font-size: 20px;
+}
+
+main > span.redBar {
+  width: 10%;
+  height: 1px;
+  background: #ec5242;
+  margin-top: -2px;
+  margin-bottom: 15px;
+}
+
+.mainBox {
+  background-color: rgba(255, 255, 255, 0.05);
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  align-items: center;
+  padding: 15px;
+}
+
+.mainBox > h2 {
+  font-size: 18px;
+  width: 20%;
+  color: #ec5242;
+}
+
+.mainBox > p {
+  width: 60%;
+  padding-left: 14px;
+  font-size: 13px;
+}
+
+button#join {
+  background: #ec5242;
+  width: 80%;
+  height: 60px;
+  border: none;
+  color: #fff;
+  margin-top: 24px;
 }

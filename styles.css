@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+body {
+  font-family: 'Lato', sans-serif;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -92,7 +96,7 @@ button#ccCampaign {
   background: #efeef2cf;
   background-repeat: no-repeat;
   background-size: 100% 10%;
-  height: 50vh;
+  height: 55vh;
   padding: 80px 10px 0 10px;
 }
 
@@ -101,7 +105,7 @@ button#ccCampaign {
   line-height: 28px;
   color: #ec5242;
   font-family: 'Lato', sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 30px;
 }
 
@@ -305,7 +309,7 @@ section#about {
   background: #efeef2cf;
   background-repeat: no-repeat;
   background-size: 100% 10%;
-  height: 50vh;
+  height: 55vh;
   padding: 80px 15px 0 15px;
 }
 
@@ -314,7 +318,7 @@ section#about > h1 {
   line-height: 30px;
   color: #ec5242;
   font-family: 'Lato', sans-serif;
-  font-weight: 800;
+  font-weight: 900;
   font-size: 28px;
   width: 100%;
   text-align: center;

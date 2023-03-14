@@ -190,6 +190,7 @@ button#join {
   border: none;
   color: #fff;
   margin-top: 24px;
+  font-size: 15px;
 }
 
 section.speakers {

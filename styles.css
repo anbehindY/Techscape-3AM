@@ -89,7 +89,7 @@ button#ccCampaign {
 }
 
 #banner {
-  background:#efeef2cf;
+  background: #efeef2cf;
   background-repeat: no-repeat;
   background-size: 100% 10%;
   height: 50vh;
@@ -201,54 +201,54 @@ div.card {
 
 div.img1 {
   background: url(images/Qazi.jpg), url(images/checker.png);
-  background-size: 75%,35%;
+  background-size: 75%, 35%;
   background-repeat: no-repeat;
-  background-position: 40% 90% , top left;
+  background-position: 40% 90%, top left;
   height: 100px;
   width: 115px;
 }
 
 div.img2 {
   background: url(images/EM.jpg), url(images/checker.png);
-  background-size: 75%,35%;
+  background-size: 75%, 35%;
   background-repeat: no-repeat;
-  background-position: 40% 90% , top left;
+  background-position: 40% 90%, top left;
   height: 100px;
   width: 115px;
 }
 
 div.img3 {
   background: url(images/ACM.jpg), url(images/checker.png);
-  background-size: 75%,35%;
+  background-size: 75%, 35%;
   background-repeat: no-repeat;
-  background-position: 40% 90% , top left;
+  background-position: 40% 90%, top left;
   height: 100px;
   width: 115px;
 }
 
 div.img4 {
   background: url(images/Yang.jpg), url(images/checker.png);
-  background-size: 75%,35%;
+  background-size: 75%, 35%;
   background-repeat: no-repeat;
-  background-position: 40% 90% , top left;
+  background-position: 40% 90%, top left;
   height: 100px;
   width: 115px;
 }
 
 div.img5 {
   background: url(images/PP.jpg), url(images/checker.png);
-  background-size: 75%,35%;
+  background-size: 75%, 35%;
   background-repeat: no-repeat;
-  background-position: 40% 90% , top left;
+  background-position: 40% 90%, top left;
   height: 100px;
   width: 115px;
 }
 
 div.img6 {
   background: url(images/PI.jpg), url(images/checker.png);
-  background-size: 75%,35%;
+  background-size: 75%, 35%;
   background-repeat: no-repeat;
-  background-position: 40% 90% , top left;
+  background-position: 40% 90%, top left;
   height: 100px;
   width: 115px;
 }
@@ -285,13 +285,13 @@ p.text {
   height: auto;
 }
 
-/* For about page*/
+/* For about page */
 
 section#about {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background:#efeef2cf;
+  background: #efeef2cf;
   background-repeat: no-repeat;
   background-size: 100% 10%;
   height: 50vh;
@@ -332,8 +332,7 @@ p.contact {
   text-align: center;
 }
 
-address > a {
-  font-size: 12px;
+address {
   font-size: 12px;
   font-family: 'Lato', sans-serif;
 }
@@ -416,7 +415,6 @@ div.pastSummit2 {
   padding: 10px;
 }
 
-
 section.partner {
   display: flex;
   flex-direction: column;
@@ -453,13 +451,12 @@ div.secondRow {
 
 footer {
   height: 100px;
-
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-footer > p {
+footer.foot {
   font-weight: 700;
   font-family: 'Lota', sans-serif;
 }

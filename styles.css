@@ -43,7 +43,7 @@ div.menuButton::after {
   width: 100%;
   height: 5px;
   margin-bottom: 4px;
-  background-color: #272a31;
+  background-color: #262626;
 }
 
 div.menuButton.active::before {
@@ -78,7 +78,7 @@ nav.menuItems > a {
 }
 
 button#ccCampaign {
-  width: 30%;
+  width: 120px;
   height: 35px;
   background-color: #fff;
   align-self: center;
@@ -89,8 +89,10 @@ button#ccCampaign {
 }
 
 #banner {
-  background: url(images/clouds.jpg);
-  height: 55vh;
+  background:#efeef2cf;
+  background-repeat: no-repeat;
+  background-size: 100% 10%;
+  height: 50vh;
   padding: 80px 10px 0 10px;
 }
 
@@ -131,18 +133,19 @@ h1.mainHeader {
   font-size: 20px;
 }
 
-main > span.redBar {
+span.redBar {
   width: 10%;
   height: 1px;
   background: #ec5242;
   margin-top: -2px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .mainBox {
   background-color: rgba(255, 255, 255, 0.05);
   display: flex;
   width: 100%;
+  height: 18%;
   gap: 20px;
   align-items: center;
   padding: 15px;
@@ -167,4 +170,112 @@ button#join {
   border: none;
   color: #fff;
   margin-top: 24px;
+}
+
+section.speakers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 15px;
+}
+
+div.cardsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  width: 100%;
+}
+
+div.card {
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+
+div.img1 {
+  background: url(images/Qazi.jpg), url(images/checker.png);
+  background-size: 75%,35%;
+  background-repeat: no-repeat;
+  background-position: 40% 90% , top left;
+  height: 100px;
+  width: 30%;
+}
+
+div.img2 {
+  background: url(images/EM.jpg), url(images/checker.png);
+  background-size: 75%,35%;
+  background-repeat: no-repeat;
+  background-position: 40% 90% , top left;
+  height: 100px;
+  width: 30%;
+}
+
+div.img3 {
+  background: url(images/ACM.jpg), url(images/checker.png);
+  background-size: 75%,35%;
+  background-repeat: no-repeat;
+  background-position: 40% 90% , top left;
+  height: 100px;
+  width: 30%;
+}
+
+div.img4 {
+  background: url(images/Yang.jpg), url(images/checker.png);
+  background-size: 75%,35%;
+  background-repeat: no-repeat;
+  background-position: 40% 90% , top left;
+  height: 100px;
+  width: 30%;
+}
+
+div.img5 {
+  background: url(images/PP.jpg), url(images/checker.png);
+  background-size: 75%,35%;
+  background-repeat: no-repeat;
+  background-position: 40% 90% , top left;
+  height: 100px;
+  width: 30%;
+}
+
+div.img6 {
+  background: url(images/PI.jpg), url(images/checker.png);
+  background-size: 75%,35%;
+  background-repeat: no-repeat;
+  background-position: 40% 90% , top left;
+  height: 100px;
+  width: 30%;
+}
+
+div.description {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+h3.name {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+small.italic {
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  font-style: italic;
+  color: #ec5242;
+}
+
+span.grayBar {
+  width: 5%;
+  height: 1px;
+  background: gray;
+}
+
+p.text {
+  font-size: 12px;
+  margin-top: 8px;
+  height: auto;
 }

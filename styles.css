@@ -110,6 +110,11 @@ button#ccCampaign {
   font-size: 20px;
 }
 
+#banner > p.schedule > small {
+  font-size: 14px;
+  font-weight: 400;
+}
+
 div.intro {
   width: 100%;
   border: 2px solid #fff;
@@ -127,11 +132,6 @@ p.schedule {
   font-size: 25px;
   font-family: 'Lota', sans-serif;
   line-height: 25px;
-}
-
-p.schedule > small {
-  font-size: 14px;
-  font-weight: 400;
 }
 
 main {
@@ -321,7 +321,7 @@ section#about > h1 {
   margin-bottom: 30px;
 }
 
-section#about > h1 > small {
+#aboutSmall {
   margin-bottom: 20px;
   font-size: 20px;
   font-weight: 400;

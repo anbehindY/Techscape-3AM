@@ -117,10 +117,21 @@ div.intro {
   margin-bottom: 15px;
   margin-top: 15px;
   background: #efeef2cf;
+  font-size: 14px;
+  font-family: 'Lota', sans-serif;
 }
 
 p.schedule {
   padding: 0 10px;
+  font-weight: 900;
+  font-size: 25px;
+  font-family: 'Lota', sans-serif;
+  line-height: 25px;
+}
+
+p.schedule > small {
+  font-size: 14px;
+  font-weight: 400;
 }
 
 main {
@@ -321,7 +332,7 @@ div.aboutUs {
   padding: 15px 10px;
   background-color: #fff;
   margin-bottom: 25px;
-  font-size: 12px;
+  font-size: 13px;
   font-family: 'Lato', sans-serif;
   text-align: center;
 }
@@ -347,13 +358,13 @@ section#competition {
 
 section#competition > h1 {
   text-align: center;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 600;
   font-family: 'Lato', sans-serif;
 }
 
 p.info {
-  font-size: 11px;
+  font-size: 13px;
   font-family: 'Lota', sans-serif;
   width: 70%;
   text-align: center;

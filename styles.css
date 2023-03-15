@@ -17,13 +17,22 @@ header {
 
 .header.active {
   height: 100vh;
-  background: #d3d3d3;
+  background: #272a31;
 }
 
 .header.active .menuItems,
 .header.active #ccCampaign {
   transform: scale(1);
   transition: all 0.4s ease-out;
+}
+
+#logo {
+  width: 150px;
+  height: 150px;
+  background: url(images/Techscape_logo.png);
+  background-position: center;
+  background-size: contain;
+  border-radius: 150px;
 }
 
 div.miniNav {
@@ -52,6 +61,7 @@ div.menuButton::after {
 
 div.menuButton.active::before {
   transform: rotate(45deg) translate(5px, 7px);
+  background-color: #d3d3d3;
 }
 
 div.menuButton.active .menuBar {
@@ -60,10 +70,7 @@ div.menuButton.active .menuBar {
 
 div.menuButton.active::after {
   transform: rotate(-45deg) translate(6px, -8px);
-}
-
-div.logo {
-  display: none;
+  background-color: #d3d3d3;
 }
 
 nav.menuItems {
@@ -77,12 +84,12 @@ nav.menuItems {
 
 nav.menuItems > a {
   text-decoration: none;
-  color: #262626;
+  color: #fff;
   font-family: "Lato", sans-serif;
   font-size: 14px;
 }
 
-nav.menuItems > a:hover {
+nav.menuItems a:hover {
   color: #ec5242;
 }
 
@@ -91,7 +98,7 @@ button#ccCampaign {
   height: 35px;
   background-color: #fff;
   align-self: center;
-  border: 4px solid #ec5242;
+  border: 3.5px solid #ec5242;
   color: #ec5242;
   font-family: "Lato", sans-serif;
   font-weight: 600;
@@ -372,6 +379,10 @@ address {
   font-family: 'Lato', sans-serif;
 }
 
+#address {
+  color: #262626;
+}
+
 section#competition {
   display: flex;
   flex-direction: column;
@@ -508,6 +519,8 @@ footer.foot {
 small.footer {
   font-size: 11px;
   font-family: 'Lota', sans-serif;
+  width: 40%;
+  display: block;
 }
 
 /* For desktop version */
@@ -556,7 +569,11 @@ small.footer {
     justify-content: flex-end;
     gap: 5%;
   }
-  
+
+  nav.menuItems > a {
+    color: #262626;
+  }
+
   #logo {
     display: block;
     height: 93%;
@@ -711,7 +728,7 @@ small.footer {
     display: flex;
     align-items: center;
   }
-  
+
   i.fa-brands.fa-airbnb {
     font-size: 25px;
   }
@@ -744,13 +761,12 @@ small.footer {
     margin-top: 10px;
   }
 
-  address > a {
+  #address {
     color: #262626;
   }
 
   section#competition {
     padding: 4% 0 10% 0;
-
   }
 
   div.logoContainer {

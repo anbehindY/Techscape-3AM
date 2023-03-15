@@ -223,6 +223,7 @@ section.speakers {
   align-items: center;
   gap: 10px;
   padding: 20px 15px;
+  height: 110vh;
 }
 
 div.cardsContainer {
@@ -433,7 +434,7 @@ div.pastSummit1 {
   background-position: center;
   background-repeat: no-repeat;
   height: 200px;
-  width: 90%;
+  width: 100%;
   margin-top: 10px;
   color: #fff;
   display: flex;
@@ -450,7 +451,7 @@ div.pastSummit2 {
   background-position: center;
   background-repeat: no-repeat;
   height: 200px;
-  width: 90%;
+  width: 100%;
   margin-top: 10px;
   color: #fff;
   display: flex;
@@ -664,8 +665,8 @@ small.footer {
   }
 
   section.speakers {
-    padding: 3% 10%;
-    height: 80vh;
+    padding: 2% 10% 3% 10%;
+    height: 85vh;
   }
 
   h1.mainHeader {

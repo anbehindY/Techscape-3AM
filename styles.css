@@ -643,4 +643,38 @@ small.footer {
     margin-top: 10%;
     color: #fff;
   }
+
+  section.speakers {
+    padding: 3% 10%;
+    height: 80vh;
+  }
+
+  h1.mainHeader {
+    font-size: 25px;
+  }
+
+  div.cardsContainer {
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+    padding-left: 5%;
+  }
+
+  div.card {
+    max-width: 45%;
+    height: 30%;
+  }
+
+  h3.name {
+    font-size: 20px;
+  }
+
+  small.italic {
+    font-size: 12px;
+  }
+
+  p.text {
+    font-size: 12px;
+  }
 }

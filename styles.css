@@ -160,18 +160,25 @@ h1.mainHeader {
 }
 
 span.redBar {
-  width: 10%;
+  width: 40px;
   height: 1px;
   background: #ec5242;
   margin-top: -2px;
   margin-bottom: 25px;
 }
 
+div.boxContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 70%;
+}
+
 .mainBox {
   background-color: rgba(255, 255, 255, 0.05);
   display: flex;
   width: 100%;
-  height: 18%;
+  height: 20%;
   gap: 20px;
   align-items: center;
   padding: 15px;
@@ -197,6 +204,10 @@ button#join {
   color: #fff;
   margin-top: 24px;
   font-size: 15px;
+}
+
+#seeMore {
+  display: none;
 }
 
 section.speakers {
@@ -296,7 +307,7 @@ small.italic {
 }
 
 span.grayBar {
-  width: 5%;
+  width: 20px;
   height: 1px;
   background: gray;
 }
@@ -397,7 +408,7 @@ span.grayBarLong {
 }
 
 span.redBarShort {
-  width: 4%;
+  width: 18px;
   height: 1px;
   background: #ec5242;
   margin-top: -2px;
@@ -453,7 +464,7 @@ section.partner > h4 {
 }
 
 span.partnerBar {
-  width: 10%;
+  width: 40px;
   height: 1px;
   background: #ec5242;
   margin-top: 5px;
@@ -501,7 +512,7 @@ small.footer {
 
 @media (min-width: 768px) {
   header {
-    height: 80px;
+    height: 90px;
     display: flex;
     justify-content: flex-start;
     gap: 0;
@@ -510,7 +521,7 @@ small.footer {
   div.miniNav {
     display: flex;
     background-color: #272a31;
-    height: 40px;
+    height: 30px;
   }
 
   nav.miniItems {
@@ -546,9 +557,10 @@ small.footer {
   
   #logo {
     display: block;
-    height: 92%;
-    width: 45px;
-    margin-right: 15%;
+    height: 93%;
+    width: 58px;
+    position: absolute;
+    right: 80%;
     border: 1px solid #262626;
     border-radius: 60px;
     background: url(images/Techscape_logo.png);
@@ -561,4 +573,74 @@ small.footer {
     margin-left: 1%;
   }
 
+  #banner {
+    padding: 5% 13%;
+    height: 96vh;
+  }
+
+  #banner > h1 {
+    font-size: 70px;
+    line-height: 90%;
+    padding: 0;
+  }
+
+  #banner > h1 > small {
+    display: inline-block;
+    width: 100%;
+    font-size: 42px;
+  }
+
+  div.intro {
+    width: 55%;
+    margin-bottom: 40px;
+  }
+
+  p.schedule {
+    font-size: 35px;
+    padding: 0;
+  }
+
+  #mainProgram {
+    padding: 4% 14%;
+  }
+
+  div.boxContainer {
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 20px;
+    height: 40%;
+  }
+
+  div.mainBox {
+    flex-direction: column;
+    height: 120%;
+    width: 20%;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  div.mainBox:hover {
+    border: 2px solid #fff;
+  }
+
+  div.mainBox > h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  div.mainBox > p {
+    width: 90%;
+    height: 100%;
+    padding: 0 1px;
+  }
+
+  #join {
+    display: none;
+  }
+
+  #seeMore {
+    display: block;
+    margin-top: 10%;
+    color: #fff;
+  }
 }

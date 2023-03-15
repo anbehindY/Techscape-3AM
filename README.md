@@ -149,8 +149,6 @@ I would like to thank Microverse, my learning partners and every Youtube channel
 
 - To [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), Original design.
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -175,5 +173,7 @@ I would like to thank Microverse, my learning partners and every Youtube channel
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE.md) licensed.
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

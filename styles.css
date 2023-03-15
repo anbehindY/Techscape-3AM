@@ -677,4 +677,44 @@ small.footer {
   p.text {
     font-size: 12px;
   }
+
+  section.partner {
+    height: 28vh;
+  }
+
+  section.partner > h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  div.partnerContainer {
+    flex-direction: row;
+    padding: 0 15%;
+    font-size: 30px;
+    gap: 0px;
+  }
+
+  div.firstRow {
+    width: 60%;
+  }
+
+  div.secondRow {
+    gap: 0;
+    width: 40%;
+    padding: 0;
+    margin: 0;
+  }
+
+  i.fa-brands.fa-airbnb {
+    font-size: 30px;
+  }
+
+  p.foot {
+    font-weight: 800;
+    font-size: 20px;
+  }
+
+  small.footer {
+    width: 30%;
+  }
 }

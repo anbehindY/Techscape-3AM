@@ -60,6 +60,13 @@ const cards = () => {
   return card;
 };
 
+const speakerSection = `<h1 class="mainHeader">
+    Featured Speakers
+</h1>
+<span class="redBar"></span>
+<div class="cardsContainer"></div>`;
+
 window.addEventListener('load', () => {
+  document.querySelector('.speakers').innerHTML = speakerSection;
   document.querySelector('.cardsContainer').innerHTML = cards().join('');
 });

@@ -328,7 +328,7 @@ section#about {
   background-repeat: no-repeat;
   background-size: 100% 10%;
   height: 55vh;
-  padding: 80px 15px 0 15px;
+  padding: 80px 15px 100px 15px;
 }
 
 section#about > h1 {
@@ -716,5 +716,47 @@ small.footer {
 
   small.footer {
     width: 30%;
+  }
+
+  section#about {
+    height: 88vh;
+  }
+
+  section#about > h1 {
+    font-size: 45px;
+    line-height: 100%;
+  }
+
+  div.aboutUs {
+    width: 65%;
+    padding: 2% 5%;
+  }
+
+  address {
+    font-weight: 700;
+    margin-top: 10px;
+  }
+
+  address > a {
+    color: #262626;
+  }
+
+  section#competition {
+    padding: 4% 0 10% 0;
+
+  }
+
+  div.logoContainer {
+    width: 50%;
+    margin: 30px 0;
+  }
+
+  p.info {
+    margin: 0 0 20px 0;
+  }
+
+  div.row {
+    display: flex;
+    gap: 20px;
   }
 }

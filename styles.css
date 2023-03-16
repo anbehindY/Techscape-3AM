@@ -17,13 +17,22 @@ header {
 
 .header.active {
   height: 100vh;
-  background: #d3d3d3;
+  background: #272a31;
 }
 
 .header.active .menuItems,
 .header.active #ccCampaign {
   transform: scale(1);
   transition: all 0.4s ease-out;
+}
+
+#logo {
+  width: 150px;
+  height: 150px;
+  background: url(images/Techscape_logo.png);
+  background-position: center;
+  background-size: contain;
+  border-radius: 150px;
 }
 
 div.miniNav {
@@ -52,6 +61,7 @@ div.menuButton::after {
 
 div.menuButton.active::before {
   transform: rotate(45deg) translate(5px, 7px);
+  background-color: #d3d3d3;
 }
 
 div.menuButton.active .menuBar {
@@ -60,10 +70,7 @@ div.menuButton.active .menuBar {
 
 div.menuButton.active::after {
   transform: rotate(-45deg) translate(6px, -8px);
-}
-
-div.logo {
-  display: none;
+  background-color: #d3d3d3;
 }
 
 nav.menuItems {
@@ -77,18 +84,24 @@ nav.menuItems {
 
 nav.menuItems > a {
   text-decoration: none;
-  color: #262626;
+  color: #fff;
   font-family: "Lato", sans-serif;
+  font-size: 14px;
+}
+
+nav.menuItems a:hover {
+  color: #ec5242;
 }
 
 button#ccCampaign {
   width: 120px;
   height: 35px;
-  background-color: #fff;
+  background-color: #262626;
   align-self: center;
-  border: 3px solid #ec5242;
+  border: 3.5px solid #ec5242;
   color: #ec5242;
   font-family: "Lato", sans-serif;
+  font-weight: 600;
   transform: scale(0);
 }
 
@@ -96,7 +109,7 @@ button#ccCampaign {
   background: #efeef2cf;
   background-repeat: no-repeat;
   background-size: 100% 10%;
-  height: 55vh;
+  height: 465px;
   padding: 80px 10px 0 10px;
 }
 
@@ -146,7 +159,7 @@ main {
   color: #fff;
   padding: 30px 15px;
   align-items: center;
-  height: 80vh;
+  height: 650px;
 }
 
 h1.mainHeader {
@@ -154,18 +167,25 @@ h1.mainHeader {
 }
 
 span.redBar {
-  width: 10%;
+  width: 40px;
   height: 1px;
   background: #ec5242;
   margin-top: -2px;
   margin-bottom: 25px;
 }
 
+div.boxContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 70%;
+}
+
 .mainBox {
   background-color: rgba(255, 255, 255, 0.05);
   display: flex;
   width: 100%;
-  height: 18%;
+  height: 20%;
   gap: 20px;
   align-items: center;
   padding: 15px;
@@ -193,12 +213,17 @@ button#join {
   font-size: 15px;
 }
 
+#seeMore {
+  display: none;
+}
+
 section.speakers {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
   padding: 20px 15px;
+  height: 900px;
 }
 
 div.cardsContainer {
@@ -290,9 +315,11 @@ small.italic {
 }
 
 span.grayBar {
-  width: 5%;
+  width: 20px;
   height: 1px;
   background: gray;
+  display: block;
+  margin-top: 5px;
 }
 
 p.text {
@@ -310,8 +337,8 @@ section#about {
   background: #efeef2cf;
   background-repeat: no-repeat;
   background-size: 100% 10%;
-  height: 55vh;
-  padding: 80px 15px 0 15px;
+  height: 465px;
+  padding: 80px 15px 100px 15px;
 }
 
 section#about > h1 {
@@ -353,6 +380,10 @@ address {
   font-family: 'Lato', sans-serif;
 }
 
+#address {
+  color: #262626;
+}
+
 section#competition {
   display: flex;
   flex-direction: column;
@@ -391,7 +422,7 @@ span.grayBarLong {
 }
 
 span.redBarShort {
-  width: 4%;
+  width: 18px;
   height: 1px;
   background: #ec5242;
   margin-top: -2px;
@@ -403,7 +434,7 @@ div.pastSummit1 {
   background-position: center;
   background-repeat: no-repeat;
   height: 200px;
-  width: 90%;
+  width: 100%;
   margin-top: 10px;
   color: #fff;
   display: flex;
@@ -420,7 +451,7 @@ div.pastSummit2 {
   background-position: center;
   background-repeat: no-repeat;
   height: 200px;
-  width: 90%;
+  width: 100%;
   margin-top: 10px;
   color: #fff;
   display: flex;
@@ -447,7 +478,7 @@ section.partner > h4 {
 }
 
 span.partnerBar {
-  width: 10%;
+  width: 40px;
   height: 1px;
   background: #ec5242;
   margin-top: 5px;
@@ -479,6 +510,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: #e6e2e2;
 }
 
 footer.foot {
@@ -489,4 +521,284 @@ footer.foot {
 small.footer {
   font-size: 11px;
   font-family: 'Lota', sans-serif;
+  width: 40%;
+  display: block;
+}
+
+/* For desktop version */
+
+@media (min-width: 768px) {
+  header {
+    height: 90px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 0;
+  }
+
+  div.miniNav {
+    display: flex;
+    background-color: #272a31;
+    height: 30px;
+  }
+
+  nav.miniItems {
+    display: flex;
+    justify-content: flex-end;
+    width: 85%;
+    gap: 15px;
+    align-items: center;
+  }
+
+  i.fa-brands {
+    font-size: 16px;
+  }
+
+  nav.miniItems > a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+  }
+
+  div.menuButton {
+    display: none;
+  }
+
+  nav.menuItems {
+    flex-direction: row;
+    transform: scale(1);
+    height: 65px;
+    width: 85%;
+    justify-content: flex-end;
+    gap: 5%;
+  }
+
+  nav.menuItems > a {
+    color: #262626;
+  }
+
+  #logo {
+    display: block;
+    height: 91%;
+    width: 56px;
+    position: absolute;
+    right: 80%;
+    border: 1px solid #262626;
+    border-radius: 60px;
+    background: url(images/Techscape_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  button#ccCampaign {
+    transform: scale(1);
+    margin-left: 1%;
+    background-color: #fff;
+  }
+
+  #banner {
+    padding: 5% 13% 10% 13%;
+    height: auto;
+  }
+
+  #banner > h1 {
+    font-size: 70px;
+    line-height: 90%;
+    padding: 0;
+  }
+
+  #banner > h1 > small {
+    display: inline-block;
+    width: 100%;
+    font-size: 42px;
+  }
+
+  div.intro {
+    width: 55%;
+    margin-bottom: 40px;
+  }
+
+  p.schedule {
+    font-size: 35px;
+    padding: 0;
+  }
+
+  #mainProgram {
+    padding: 4.4% 14%;
+    height: auto;
+  }
+
+  div.boxContainer {
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 20px;
+    height: 40%;
+  }
+
+  div.mainBox {
+    flex-direction: column;
+    height: 250px;
+    width: 20%;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  div.mainBox:hover {
+    border: 2px solid #fff;
+  }
+
+  div.mainBox > h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  div.mainBox > p {
+    width: 90%;
+    height: 100%;
+    padding: 0 1px;
+  }
+
+  #join {
+    display: none;
+  }
+
+  #seeMore {
+    display: block;
+    margin-top: 3%;
+    color: #fff;
+  }
+
+  section.speakers {
+    padding: 2% 10% 5% 10%;
+    height: auto;
+  }
+
+  h1.mainHeader {
+    font-size: 25px;
+  }
+
+  div.cardsContainer {
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+    padding-left: 5%;
+  }
+
+  div.card {
+    max-width: 45%;
+    height: 30%;
+  }
+
+  h3.name {
+    font-size: 20px;
+  }
+
+  small.italic {
+    font-size: 12px;
+  }
+
+  p.text {
+    font-size: 12.5px;
+  }
+
+  section.partner {
+    height: 200px;
+  }
+
+  section.partner.hide {
+    display: none;
+  }
+
+  section.partner > h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  div.partnerContainer {
+    flex-direction: row;
+    padding: 0;
+    font-size: 25px;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  div.firstRow {
+    width: 48%;
+  }
+
+  div.secondRow {
+    width: 30%;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+  }
+
+  p.airbnb {
+    display: flex;
+    align-items: center;
+  }
+
+  i.fa-brands.fa-airbnb {
+    font-size: 25px;
+  }
+
+  p.foot {
+    font-weight: 800;
+    font-size: 20px;
+  }
+
+  footer {
+    height: 150px;
+  }
+
+  footer.black {
+    background: #272a31;
+    color: #fff;
+  }
+
+  small.footer {
+    width: 30%;
+  }
+
+  section#about {
+    height: auto;
+    padding-bottom: 14%;
+  }
+
+  section#about > h1 {
+    font-size: 45px;
+    line-height: 100%;
+  }
+
+  div.aboutUs {
+    width: 65%;
+    padding: 2% 5%;
+  }
+
+  address {
+    font-weight: 700;
+    margin-top: 10px;
+  }
+
+  #address {
+    color: #262626;
+  }
+
+  section#competition {
+    padding: 4% 0 10% 0;
+  }
+
+  div.logoContainer {
+    width: 50%;
+    margin: 30px 0;
+  }
+
+  p.info {
+    margin: 0 0 20px 0;
+  }
+
+  div.row {
+    display: flex;
+    gap: 20px;
+  }
 }

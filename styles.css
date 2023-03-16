@@ -96,7 +96,7 @@ nav.menuItems a:hover {
 button#ccCampaign {
   width: 120px;
   height: 35px;
-  background-color: #fff;
+  background-color: #262626;
   align-self: center;
   border: 3.5px solid #ec5242;
   color: #ec5242;
@@ -109,7 +109,7 @@ button#ccCampaign {
   background: #efeef2cf;
   background-repeat: no-repeat;
   background-size: 100% 10%;
-  height: 55vh;
+  height: 465px;
   padding: 80px 10px 0 10px;
 }
 
@@ -159,7 +159,7 @@ main {
   color: #fff;
   padding: 30px 15px;
   align-items: center;
-  height: 80vh;
+  height: 650px;
 }
 
 h1.mainHeader {
@@ -223,7 +223,7 @@ section.speakers {
   align-items: center;
   gap: 10px;
   padding: 20px 15px;
-  height: 110vh;
+  height: 900px;
 }
 
 div.cardsContainer {
@@ -337,7 +337,7 @@ section#about {
   background: #efeef2cf;
   background-repeat: no-repeat;
   background-size: 100% 10%;
-  height: 55vh;
+  height: 465px;
   padding: 80px 15px 100px 15px;
 }
 
@@ -506,15 +506,10 @@ div.secondRow {
 }
 
 footer {
-  height: 150px;
+  height: 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-
-footer.black {
-  background: #272a31;
-  color: #fff;
 }
 
 footer.foot {
@@ -596,6 +591,7 @@ small.footer {
   button#ccCampaign {
     transform: scale(1);
     margin-left: 1%;
+    background-color: #fff;
   }
 
   #banner {
@@ -747,6 +743,15 @@ small.footer {
     font-weight: 800;
     font-size: 20px;
   }
+
+  footer {
+    height: 150px;
+  }
+
+  footer.black {
+    background: #272a31;
+    color: #fff;
+  }  
 
   small.footer {
     width: 30%;

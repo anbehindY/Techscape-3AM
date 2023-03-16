@@ -506,10 +506,15 @@ div.secondRow {
 }
 
 footer {
-  height: 100px;
+  height: 150px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+footer.black {
+  background: #272a31;
+  color: #fff;
 }
 
 footer.foot {
@@ -699,7 +704,11 @@ small.footer {
   }
 
   section.partner {
-    height: 28vh;
+    height: 200px;
+  }
+
+  section.partner.hide {
+    display: none;
   }
 
   section.partner > h4 {

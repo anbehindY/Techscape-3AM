@@ -27,7 +27,7 @@
 
 # 📖 Techscape@3AM <a name="about-project"></a>
 
-**Techscape@3AM** is a startup that share technical knowledge to technical and non-technical people  by blogs, conferences. And in this repository I build a website for that startup offering conference location and time globally.
+**Techscape@3AM** is a startup that share technical knowledge to technical and non-technical people by programs, blogs, and conferences. And in this repository I build a website for the startup. The website contains 6 pages in total: Home page, About page, Program page, Blog page and Newsletter page. I currently built the first two pages, but I'm going to implement the rest pages any soon or later.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -36,6 +36,7 @@
 - HTML
 - CSS
 - Javascript
+- Adobe Creative Cloud
 
 <!-- Features -->
 
@@ -43,7 +44,7 @@
 
 - Responsiveness for mobile, tablets and desktops
 - Understand how to implement dynamic HTML with JS
-- Users can know all the infos about the conference in one place.
+- Minimalistic and simple design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,7 +76,7 @@ Clone this repository to your desired folder:
   cd my-folder
 ```
 ```sh
-  git clone git@github.com:anbehindY/Portfolio_setup.git
+  git clone git@github.com:anbehindY/Techscape-3AM.git
 ```
 
 ### Usage
@@ -113,10 +114,13 @@ To run tests:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-- **Detailed responsiveness**
+- **Animation and transtion effects**
 - **Different Color swatches**
 - **Accessibility features**
+- **Implementation of Program page**
+- **Implementation of Blog page**
+- **Implementation of Newsletter page**
+- **Implementation of Join Us page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,7 +131,7 @@ To run tests:
 
 Contributions, issues, and feature requests are welcome!
 
- - https://github.com/anbehindY/Portfolio_setup/issues
+ - https://github.com/anbehindY/Techscape-3AM/issues
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,7 +151,7 @@ If you like this project, please give a star.
 
 I would like to thank Microverse, my learning partners and every Youtube channel.
 
-- To [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), Original design.
+- And also to the owner of the design, [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), Original design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -157,13 +161,13 @@ I would like to thank Microverse, my learning partners and every Youtube channel
 ## ❓ FAQ  <a name="faq"></a>
 
 
-- **What is HTML**
+- **What is Responsiveness in web pages?**
 
-  - HTML is a hyper text markup language that is used to build raw structure of a web page.
+  - It is the ability of a web page in which the website can adapt to different screen sizes and screen ratios.
 
-- **What is CSS**
+- **What is minimalistic web design?**
 
-  - CSS is a cascading style sheets that links to the HTML and make the website visually active.
+  - A minimalist web-design strategy is one that seeks to simplify interfaces by removing unnecessary elements or content that does not support user tasks.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -172,7 +176,7 @@ I would like to thank Microverse, my learning partners and every Youtube channel
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 

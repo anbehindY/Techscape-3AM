@@ -595,8 +595,8 @@ small.footer {
   }
 
   #banner {
-    padding: 5% 13%;
-    height: 96vh;
+    padding: 5% 13% 10% 13%;
+    height: auto;
   }
 
   #banner > h1 {
@@ -622,7 +622,8 @@ small.footer {
   }
 
   #mainProgram {
-    padding: 4% 14%;
+    padding: 4.4% 14%;
+    height: auto;
   }
 
   div.boxContainer {
@@ -634,7 +635,7 @@ small.footer {
 
   div.mainBox {
     flex-direction: column;
-    height: 120%;
+    height: 250px;
     width: 20%;
     align-items: center;
     padding-top: 20px;
@@ -661,13 +662,13 @@ small.footer {
 
   #seeMore {
     display: block;
-    margin-top: 10%;
+    margin-top: 3%;
     color: #fff;
   }
 
   section.speakers {
-    padding: 2% 10% 3% 10%;
-    height: 85vh;
+    padding: 2% 10% 5% 10%;
+    height: auto;
   }
 
   h1.mainHeader {
@@ -716,18 +717,19 @@ small.footer {
     flex-direction: row;
     padding: 0;
     font-size: 25px;
-    gap: 0;
+    gap: 20px;
     justify-content: center;
   }
 
   div.firstRow {
-    width: 45%;
+    width: 48%;
   }
 
   div.secondRow {
     width: 30%;
     padding: 0;
     margin: 0;
+    gap: 20px;
   }
 
   p.airbnb {
@@ -758,7 +760,8 @@ small.footer {
   }
 
   section#about {
-    height: 88vh;
+    height: auto;
+    padding-bottom: 14%;
   }
 
   section#about > h1 {
